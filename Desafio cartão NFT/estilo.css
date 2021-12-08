@@ -33,11 +33,19 @@ main {
 #img-ethereum {
   color: hsl(178, 100%, 50%);
   float: left;
+  display: flex;
+  align-items: center;
+}
+
+#img-ethereum img {
+  margin-right: 4px;
 }
 
 #tempo {
   color: hsl(215, 51%, 70%);
   float: right;
+  display: flex;
+  align-items: center;
 }
 
 #clear {
@@ -48,6 +56,8 @@ main {
 
 #rodape {
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .color-font {
@@ -56,7 +66,7 @@ main {
 
 #rodape img {
   width: 10%;
-  border-radius: 10% 10% 10% 10% solid white;
+  margin-right: 5px;
 }
 
 h3 {
